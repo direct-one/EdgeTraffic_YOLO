@@ -292,6 +292,24 @@ ByteTrack 다중 객체 추적 (persist=True)
 ```
 
 ---
+## 동작영상 
+**국도용 시연영상**
+- 국도1
+- 
+https://github.com/user-attachments/assets/aef6912d-b461-4f60-8275-5c4cc7911791
+
+- 국도2 
+
+https://github.com/user-attachments/assets/7fd1869f-d65b-404c-8bb3-018d8d3ed5af
+
+- 국도3
+
+https://github.com/user-attachments/assets/45ebfbb0-b5f7-470b-b6d9-43d72a46bf97
+
+- 고속도로1
+
+https://github.com/user-attachments/assets/cd53d52f-6794-4e68-87f2-7beb45e96ec9
+
 
 
 ## 🙏 참고
