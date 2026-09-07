@@ -63,13 +63,13 @@ YOLO11 + TensorRT + ByteTrack 기반의 **실시간 차량 검출 및 모니터�
 ## 💻 시스템 요구사항
 
 ### 하드웨어
-* **NVIDIA Jetson** (Nano / Xavier NX / Orin 등)
+* **NVIDIA Jetson** (Jetson Nano Orin)
 * **CUDA 지원 GPU**
 * **USB 또는 CSI 카메라**
 
 ### 소프트웨어
 * Python 3.8+
-* JetPack SDK (CUDA, cuDNN, TensorRT 포함)
+* JetPack SDK (TensorRT)
 * OpenCV (with CUDA support 권장)
 * Ultralytics YOLO
 
