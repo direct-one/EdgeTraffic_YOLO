@@ -92,12 +92,14 @@ yolo export model=vehicle5_yolo11n_e250.pt format=engine device=0 imgsz=640
 ### 3. 파일 배치
 ```text
 프로젝트/
-├── vehicle_detect_v1.py              # v1: Zone 카운트 버전
-├── vehicle_detect_v2.py              # v2: 주정차 금지구역 버전
-├── vehicle5_yolo11n_e250.engine      # TensorRT 엔진 (동일 폴더에 배치)
-└── bytetrack.yaml                    # ByteTrack 설정 파일
+├── vehicle_detect_v1.py(Expressway.py)                    # v1: Zone 카운트 버전
+├── vehicle_detect_v2.py(National_Highway.py)              # v2: 주정차 금지구역 버전
+├── vehicle5_yolo11n_e250.engine                           # TensorRT 엔진 (동일 폴더에 배치)
+└── bytetrack.yaml                                         # ByteTrack 설정 파일
 ```
-
+#### 참고 
+- engine 파일은 repo에 있는 onnx파일을 engine파일로 변형
+- yaml파일은 Google Colab을 통해 만들어진 파일로 실행 과정에서는 사용되지 않음 
 ---
 
 ## 🚀 실행
